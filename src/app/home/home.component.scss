@@ -1,0 +1,94 @@
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: 100%;
+    // z-index: -1;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Adjust opacity as needed */
+    filter: grayscale(100%);
+    // z-index: 1;
+}
+
+.section-shaped .shape-primary{
+    background: black !important;
+}
+
+
+.shape-container-ex{
+    padding: 16rem 0 !important;
+}
+
+.separator-skew{
+    bottom: -4.5rem;
+    height: 40%;
+}
+
+.bg-dark {
+    background-color: #000 !important;
+}
+
+.card-prod:before,
+.card-prod:after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+
+.buy-now-btn{
+    border-radius: 0 !important;
+    // margin-left: -12%;
+    position: absolute;
+    top: 86%;
+    left: -1%;
+}
+
+.arrows-fa{
+    background-color: red !important;
+}
+
+.image{
+    height: 20rem;
+    position: relative;
+    // background-repeat: no-repeat;
+    // background-size: contain;
+    // background-position: center;
+}
+.card-img-top{
+    width: 100%;
+    // position: relative;
+    height: 100%;
+}
+
+.card-title{
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.strip{
+    height: 0.1rem;
+    position: static;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.c-letter{
+    font-size: 3rem;
+}

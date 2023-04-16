@@ -1,0 +1,127 @@
+<main>
+  <div class="position-relative">
+    <!-- Hero for FREE version -->
+    <video autoplay loop muted>
+      <source src="assets/videos/herovideo.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
+    <section class="section section-lg section-hero section-shaped">
+      <!-- Background circles -->
+      <div class="shape shape-style-1 shape-primary">
+        <span class="span-150"></span>
+        <span class="span-50"></span>
+        <span class="span-50"></span>
+        <span class="span-75"></span>
+        <span class="span-100"></span>
+        <span class="span-75"></span>
+        <span class="span-50"></span>
+        <span class="span-100"></span>
+        <span class="span-50"></span>
+        <span class="span-100"></span>
+      </div>
+      <div class="container shape-container-ex d-flex align-items-center py-lg">
+        <div class="col px-0">
+          <div class="row align-items-center justify-content-center">
+            <img src="assets/img/brand/logo.svg" class="img-fluid mb-4">
+
+
+            <app-typing class="col-12 text-center"></app-typing>
+
+            <!-- <p class="lead text-white">A beautiful Design System for Bootstrap 4 and Angular 13. It's Free and Open Source.</p> -->
+            <!-- <div class="btn-wrapper mt-5">
+                  <a href="https://www.creative-tim.com/product/argon-design-system-angular?ref=adsa-index-header" class="btn btn-lg btn-white btn-icon mb-3 mb-sm-0">
+                    <span class="btn-inner--icon"><i class="ni ni-cloud-download-95"></i></span>
+                    <span class="btn-inner--text">Download Angular</span>
+                  </a>
+                  <a href="https://github.com/creativetimofficial/argon-design-system-angular?ref=adsa-index-header" class="btn btn-lg btn-github btn-icon mb-3 mb-sm-0" target="_blank">
+                    <span class="btn-inner--icon"><i class="fa fa-github"></i></span>
+                    <span class="btn-inner--text">
+                      <span class="text-warning">Star us</span> on Github</span>
+                  </a>
+                </div>
+                <div class="mt-5">
+                  <small class="text-white font-weight-bold mb-0 mr-2">*proudly coded by</small>
+                  <img src="./assets/img/brand/creativetim-white-slim.png" style="height: 28px;">
+                </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- <app-sections></app-sections> -->
+</main>
+
+
+<section _ngcontent-c3="" class="section section-lg section-hero section-shaped">
+  <div _ngcontent-c3="" class="shape shape-style-1 shape-primary"><span _ngcontent-c3="" class="span-150"></span><span
+      _ngcontent-c3="" class="span-50"></span><span _ngcontent-c3="" class="span-50"></span><span _ngcontent-c3=""
+      class="span-75"></span><span _ngcontent-c3="" class="span-100"></span><span _ngcontent-c3=""
+      class="span-75"></span><span _ngcontent-c3="" class="span-50"></span><span _ngcontent-c3=""
+      class="span-100"></span><span _ngcontent-c3="" class="span-50"></span><span _ngcontent-c3=""
+      class="span-100"></span></div>
+  <div _ngcontent-c3="" class="container shape-container d-flex align-items-center py-lg">
+    <div _ngcontent-c3="" class="col px-0">
+      <!-- <div _ngcontent-c3="" class="row align-items-center justify-content-center"> -->
+        <!-- <div _ngcontent-c3="" class="col-lg-6 text-center"><img _ngcontent-c3="" class="img-fluid"
+            src="./assets/img/brand/argon-white.png" style="width: 200px;">
+          <p _ngcontent-c3="" class="lead text-white">A beautiful Design System for Bootstrap 4 and Angular 7. It's Free
+            and Open Source.</p>
+          <div _ngcontent-c3="" class="btn-wrapper mt-5"><a _ngcontent-c3=""
+              class="btn btn-lg btn-white btn-icon mb-3 mb-sm-0"
+              href="https://www.creative-tim.com/product/argon-design-system-angular?ref=adsa-index-header"><span
+                _ngcontent-c3="" class="btn-inner--icon"><i _ngcontent-c3=""
+                  class="ni ni-cloud-download-95"></i></span><span _ngcontent-c3="" class="btn-inner--text">Download
+                Angular</span></a><a _ngcontent-c3="" class="btn btn-lg btn-github btn-icon mb-3 mb-sm-0"
+              href="https://github.com/creativetimofficial/argon-design-system-angular?ref=adsa-index-header"
+              target="_blank"><span _ngcontent-c3="" class="btn-inner--icon"><i _ngcontent-c3=""
+                  class="fa fa-github"></i></span><span _ngcontent-c3="" class="btn-inner--text"><span _ngcontent-c3=""
+                  class="text-warning">Star us</span> on Github</span></a></div>
+          <div _ngcontent-c3="" class="mt-5"><small _ngcontent-c3=""
+              class="text-white font-weight-bold mb-0 mr-2">*proudly coded by</small><img _ngcontent-c3=""
+              src="./assets/img/brand/creativetim-white-slim.png" style="height: 28px;"></div>
+        </div> -->
+        <h2 class="text-white"> <span class="c-letter">C</span>ollections</h2>
+
+      <owl-carousel-o [options]="customOptions">
+        <ng-template *ngFor="let p of products" carouselSlide class="card-prod">
+          <div class="p-2">
+            <div class="card rounded-0 border-0">
+              <!-- <img class="card-img-top" src="{{p.image}}"
+                alt="Card image cap"> -->
+                <div class="image" >
+                  <img class="card-img-top" src="{{p.image}}"
+                alt="Card image cap">
+                <div class="strip"></div>
+                </div>
+              <div class="card-body">
+                <h5 class="card-title">{{ p.name }}</h5>
+                <p class="card-text">₹ {{p.price}}</p>
+
+                <div class="pb-5"></div>
+              
+                <a class="btn btn-dark buy-now-btn" target="_blank"
+                  href="{{p.url}}">Buy
+                  Now
+                  &nbsp;&nbsp;&nbsp;&nbsp;
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="18" viewBox="0 0 10 18" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.46967 0.96967C0.762563 0.676777 1.23744 0.676777 1.53033 0.96967L9.03033 8.46967C9.32322 8.76256 9.32322 9.23744 9.03033 9.53033L1.53033 17.0303C1.23744 17.3232 0.762563 17.3232 0.46967 17.0303C0.176777 16.7374 0.176777 16.2626 0.46967 15.9697L7.43934 9L0.46967 2.03033C0.176777 1.73744 0.176777 1.26256 0.46967 0.96967Z" fill="white"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </ng-template>
+      </owl-carousel-o>
+      <!-- </div> -->
+    </div>
+  </div>
+  
+</section>
+
+
+
+
+
+
