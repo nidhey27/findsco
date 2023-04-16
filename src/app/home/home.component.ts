@@ -41,11 +41,30 @@ export class HomeComponent {
 
   products = [
     {
+      image: "https://m.media-amazon.com/images/I/51yW2HeFTkL._UX679_.jpg",
+      price: "447",
+      name: "HSR Women Stylish Sleeveless High Mock Neck Stretchable Knit Regular Fit Tank Top (Free Size)",
+      url:"https://www.amazon.in/HSR-Stylish-Sleeveless-Stretchable-Regular/dp/B0B2PL22B7/ref=sr_1_20?crid=1P6A4KS4OH8BU&amp;keywords=tops&amp;qid=1681486549&amp;s=apparel&amp;sprefix=tops%252Capparel%252C233&amp;sr=1-20&amp;th=1&_encoding=UTF8&tag=findsco-21&linkCode=ur2&linkId=17adc89918e3400a80f0d250468cdbb4&camp=3638&creative=24630"
+    },
+    {
+      image: "https://m.media-amazon.com/images/I/514ff8s7bTL.jpg",
+      price: "449",
+      name: "ELEVANTO Women's Latest Round Neck Stylish Criss Cross Back Tie Backless Crop Top Bardot Blouse/Tops for Summer/Basis Tshirt Maroon",
+      url:"https://www.amazon.in/dp/B09STY8YTQ/ref=syn_sd_offsite_desktop_50?ie=UTF8&amp;psc=1&amp;aaxitk=qUKelUqaRH2BPP-E&amp;sp_csd=d2lkZ2V0TmFtZT1zZF9vZmZzaXRlX2Rlc2t0b3A&amp;tag=dradisplayi0a-21&_encoding=UTF8&tag=findsco-21&linkCode=ur2&linkId=a5fa698bf3ea9552b8afa8dd9ed83d67&camp=3638&creative=24630"
+    },
+    {
+      image: "https://m.media-amazon.com/images/I/61cPXhdCT0L._UY879_.jpg",
+      price: "610",
+      name: "Miss Chase Women's Cotton Full Sleeve Collared Top",
+      url:"https://www.amazon.in/Miss-Chase-Womens-Regular-MCAW17TP08-97-62-06_Black_X-Large/dp/B07L93Y7QS/ref=sr_1_67?crid=1P6A4KS4OH8BU&amp;keywords=tops&amp;qid=1681486664&amp;s=apparel&amp;sprefix=tops%252Capparel%252C233&amp;sr=1-67&amp;th=1&amp;psc=1&_encoding=UTF8&tag=findsco-21&linkCode=ur2&linkId=a91d1a50158ad9551e43773979ebffb8&camp=3638&creative=24630"
+    },
+    {
       image: "https://m.media-amazon.com/images/I/61FvJKJ7vkL._UX679_.jpg",
       price: "419",
       url: "https://www.amazon.in/Harpa-Striped-GR5672-Multi_-Medium/dp/B07KT7NVRP/ref=sr_1_74?crid=3BNX3SWZ57WAY&keywords=tops%252Bfor%252Bwomen%252Bwestern%252Bwear&qid=1681486963&s=apparel&sprefix=tops%252Capparel%252C276&sr=1-74&th=1&psc=1&_encoding=UTF8&tag=findsco-21&linkCode=ur2&linkId=5ad37651f1343c582b67c5f3b5496ff8&camp=3638&creative=24630",
       name: "Harpa Striped Regular Fit Top",
     },
+    
     {
       image: "https://m.media-amazon.com/images/I/81rc8aUwufL._UY879_.jpg",
       price: "847",
@@ -64,12 +83,7 @@ export class HomeComponent {
       name: "Mirana Crew Neck Front Pleat Detail Women Top with Long Sleeves for Office Wear, Casual Wear, Top for Women/Girls Top",
       url:"https://www.amazon.in/Mirana-Detail-Sleeves-Office-Casual/dp/B0BTTFDV85/ref=sr_1_17?crid=3BNX3SWZ57WAY&amp;keywords=tops%252Bfor%252Bwomen%252Bwestern%252Bwear&amp;qid=1681486784&amp;s=apparel&amp;sprefix=tops%252Capparel%252C276&amp;sr=1-17&amp;th=1&amp;psc=1&_encoding=UTF8&tag=findsco-21&linkCode=ur2&linkId=ee0afe3ddcf81fe381379ef7b09baeab&camp=3638&creative=24630"
     },
-    {
-      image: "https://m.media-amazon.com/images/I/61cPXhdCT0L._UY879_.jpg",
-      price: "610",
-      name: "Miss Chase Women's Cotton Full Sleeve Collared Top",
-      url:"https://www.amazon.in/Miss-Chase-Womens-Regular-MCAW17TP08-97-62-06_Black_X-Large/dp/B07L93Y7QS/ref=sr_1_67?crid=1P6A4KS4OH8BU&amp;keywords=tops&amp;qid=1681486664&amp;s=apparel&amp;sprefix=tops%252Capparel%252C233&amp;sr=1-67&amp;th=1&amp;psc=1&_encoding=UTF8&tag=findsco-21&linkCode=ur2&linkId=a91d1a50158ad9551e43773979ebffb8&camp=3638&creative=24630"
-    },
+    
     {
       image: "https://m.media-amazon.com/images/I/81-OiPWQYeL._UY879_.jpg",
       price: "229",
@@ -100,18 +114,8 @@ export class HomeComponent {
       name: "GRECIILOOKS Women's Casual Ruffle Sleeve V-Neck Rayon Printed Tops for Girls| Long Formal Women Tops",
       url:"https://www.amazon.in/Greciilooks-Womens-Stylish-Sleeves-X-Large/dp/B09YP548TR/ref=sr_1_30?crid=1P6A4KS4OH8BU&amp;keywords=tops&amp;qid=1681486549&amp;s=apparel&amp;sprefix=tops%252Capparel%252C233&amp;sr=1-30&amp;th=1&amp;psc=1&_encoding=UTF8&tag=findsco-21&linkCode=ur2&linkId=a00bd53ad20fd7089b83b8500c2b51e7&camp=3638&creative=24630"
     },
-    {
-      image: "https://m.media-amazon.com/images/I/51yW2HeFTkL._UX679_.jpg",
-      price: "447",
-      name: "HSR Women Stylish Sleeveless High Mock Neck Stretchable Knit Regular Fit Tank Top (Free Size)",
-      url:"https://www.amazon.in/HSR-Stylish-Sleeveless-Stretchable-Regular/dp/B0B2PL22B7/ref=sr_1_20?crid=1P6A4KS4OH8BU&amp;keywords=tops&amp;qid=1681486549&amp;s=apparel&amp;sprefix=tops%252Capparel%252C233&amp;sr=1-20&amp;th=1&_encoding=UTF8&tag=findsco-21&linkCode=ur2&linkId=17adc89918e3400a80f0d250468cdbb4&camp=3638&creative=24630"
-    },
-    {
-      image: "https://m.media-amazon.com/images/I/514ff8s7bTL.jpg",
-      price: "449",
-      name: "ELEVANTO Women's Latest Round Neck Stylish Criss Cross Back Tie Backless Crop Top Bardot Blouse/Tops for Summer/Basis Tshirt Maroon",
-      url:"https://www.amazon.in/dp/B09STY8YTQ/ref=syn_sd_offsite_desktop_50?ie=UTF8&amp;psc=1&amp;aaxitk=qUKelUqaRH2BPP-E&amp;sp_csd=d2lkZ2V0TmFtZT1zZF9vZmZzaXRlX2Rlc2t0b3A&amp;tag=dradisplayi0a-21&_encoding=UTF8&tag=findsco-21&linkCode=ur2&linkId=a5fa698bf3ea9552b8afa8dd9ed83d67&camp=3638&creative=24630"
-    },
+   
+    
   ]
 
   @ViewChild('video', { static: true }) video!: ElementRef;
