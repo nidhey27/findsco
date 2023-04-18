@@ -82,8 +82,10 @@
               class="text-white font-weight-bold mb-0 mr-2">*proudly coded by</small><img _ngcontent-c3=""
               src="./assets/img/brand/creativetim-white-slim.png" style="height: 28px;"></div>
         </div> -->
-        <h2 class="text-white"> <span class="c-letter">C</span>ollections</h2>
-
+        <div class="d-inline-flex align-items-center w-100">
+          <h2 class="text-white"> <span class="c-letter">C</span>ollections</h2>
+          <a routerLink="/products" class="ml-auto text-light">View All</a>
+        </div>
       <owl-carousel-o [options]="customOptions">
         <ng-template *ngFor="let p of products" carouselSlide class="card-prod">
           <div class="p-2">

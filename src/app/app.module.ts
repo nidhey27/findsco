@@ -11,7 +11,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { FooterComponent } from './footer/footer.component';
 import { ModalComponent } from './modal/modal.component';
-
+import { HttpClientModule } from '@angular/common/http';
+import { ProductsComponent } from './products/products.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,13 +21,15 @@ import { ModalComponent } from './modal/modal.component';
     TypingComponent,
     AboutUsComponent,
     FooterComponent,
-    ModalComponent
+    ModalComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     CarouselModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

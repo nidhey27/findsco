@@ -1,0 +1,48 @@
+<section _ngcontent-c3="" class="section section-lg section-hero section-shaped bg-dark">
+    <div _ngcontent-c3="" class="shape shape-style-1 shape-primary"><span _ngcontent-c3="" class="span-150"></span><span
+        _ngcontent-c3="" class="span-50"></span><span _ngcontent-c3="" class="span-50"></span><span _ngcontent-c3=""
+        class="span-75"></span><span _ngcontent-c3="" class="span-100"></span><span _ngcontent-c3=""
+        class="span-75"></span><span _ngcontent-c3="" class="span-50"></span><span _ngcontent-c3=""
+        class="span-100"></span><span _ngcontent-c3="" class="span-50"></span><span _ngcontent-c3=""
+        class="span-100"></span></div>
+    <div _ngcontent-c3="" class="container shape-container d-flex align-items-center py-lg">
+      <div _ngcontent-c3="" class="col px-0">
+        
+          <div class="d-inline-flex align-items-center w-100">
+            <h2 class="text-white"> <span class="c-letter">O</span>ur <span class="c-letter">C</span>ollection</h2>
+
+           
+           
+          </div>
+          <div class="row">
+            <div *ngFor="let p of products" class="col-sm-4">
+                <div  class="p-2">
+                    <div class="card rounded-0 border-0">
+                        <div class="image" >
+                          <img class="card-img-top" src="{{p.image}}"
+                        alt="Card image cap">
+                        <div class="strip"></div>
+                        </div>
+                      <div class="card-body">
+                        <h5 class="card-title">{{ p.name }}</h5>
+                        <p class="card-text">₹ {{p.price}}</p>
+        
+                        <div class="pb-5"></div>
+                      
+                        <a class="btn btn-dark buy-now-btn" target="_blank"
+                          href="{{p.url}}">Buy
+                          Now
+                          &nbsp;&nbsp;&nbsp;&nbsp;
+                          <svg xmlns="http://www.w3.org/2000/svg" width="10" height="18" viewBox="0 0 10 18" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.46967 0.96967C0.762563 0.676777 1.23744 0.676777 1.53033 0.96967L9.03033 8.46967C9.32322 8.76256 9.32322 9.23744 9.03033 9.53033L1.53033 17.0303C1.23744 17.3232 0.762563 17.3232 0.46967 17.0303C0.176777 16.7374 0.176777 16.2626 0.46967 15.9697L7.43934 9L0.46967 2.03033C0.176777 1.73744 0.176777 1.26256 0.46967 0.96967Z" fill="white"/>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        
+        <!-- </div> -->
+      </div>
+    </div>
