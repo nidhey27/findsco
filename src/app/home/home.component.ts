@@ -47,7 +47,7 @@ export class HomeComponent {
     // this.video.nativeElement.play()
     window.scroll(0, 0)
 
-    this._httpClient.get("/assets/products.json").subscribe((resp: any) => {
+    this._httpClient.get("https://nidhey27.github.io/findsco/src/assets/products.json").subscribe((resp: any) => {
       this.products = resp;
       this.products = this.shuffle(this.products)
     });
