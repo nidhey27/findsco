@@ -92,3 +92,8 @@ video {
 .c-letter{
     font-size: 3rem;
 }
+@media only screen and (max-width: 600px) {
+   .p-2{
+    padding: 1rem 2rem !important;
+   }
+  }
